@@ -83,8 +83,16 @@ function nav(): DefaultTheme.NavItem[] {
     },
     {
       text: '基岩',
-      link: '/zh_CN/Bedrock/',
-      activeMatch: '/Bedrock/',
+      items: [
+        {
+          text: '导航页',
+          link: '/zh_CN/Bedrock/',
+        },
+        {
+          text: 'BDS（原版）',
+          link: '/zh_CN/Bedrock/BDS/',
+        }
+      ]
     },
     {
       text: '更多',

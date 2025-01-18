@@ -8,10 +8,12 @@ import VanillaSidebar from './JAVA/Vanilla'
 import CuberiteSidebar from './JAVA/Cuberite'
 import SpigotSidebar from './JAVA/SpigotSeries'
 import ModSidebar from './JAVA/Mod'
+import BDSSidebar from './Bedrock/BDS'
 
 export default {
     ...CuberiteSidebar,
     ...VanillaSidebar,
     ...SpigotSidebar,
     ...ModSidebar,
+    ...BDSSidebar,
 }
