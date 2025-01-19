@@ -108,7 +108,7 @@ online-mode:
   description: "是否让服务器对比Minecraft账户数据库验证登录信息。只有在你的服务器并未与Internet连接时，才将这个值设为false。如果设为false，黑客就能够使用任意假账户连接服务器！如果minecraft.net服务器宕机或不可访问，那么该值设为true的服务器会因为无法验证玩家身份而拒绝所有玩家加入。通常，这个值设为true的服务器被称为“正版服务器”。故意设定该变量为false的服务器称为“破解服务器”（也称离线服务器），这类服务器允许拥有未授权的Minecraft副本的玩家加入。"
 op-permission-level:
   default: "4"
-  description: "设置使用/op时操作员的默认权限级别。 (允许值: 0, 1, 2, 3, 4)"
+  description: "设置使用/op时操作员的默认权限级别。允许值: 0, 1, 2, 3, 4。注意：四级权限及其危险拥有直接关闭服务器的权限，在给予权限前请三思。"
 player-idle-timeout:
   default: "0"
   description: "如果非零，玩家在闲置超过该分钟数后将被踢出服务器。(默认: 0)。以下数据包将停止此计时器: “Click Window”, “Enchant Item”, “Update Sign”, “Player Digging”, “Player Block Placement”, “Held Item Change”, “Animation (swing arm)”, “Entity Action”, “Client Status”, “Chat Message”, “Use Entity”。"
@@ -147,7 +147,7 @@ resource-pack-sha1:
   description: "资源包的哈希，用于验证。建议设置此项以确保玩家下载正确的包。"
 server-ip:
   default: ""
-  description: "将服务器与一个特定IP绑定。强烈建议留空该属性值！"
+  description: "将服务器与一个特定IP绑定。当你拥有多个IP地址/域名时可以配置此项使你的服务器只允许特点的地址登录"
 server-port:
   default: "25565"
   description: "监听连接的端口。"

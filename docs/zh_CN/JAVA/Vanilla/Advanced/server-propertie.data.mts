@@ -9,7 +9,7 @@ export default {
     const raw = yaml.parse(
       fs.readFileSync('./docs/zh_CN/JAVA/Vanilla/Advanced/server-properties.yml', 'utf-8')
     )
-    const md = await createMarkdownRenderer(config.srcDir, config.markdown)
+    const md = await createMarkdownRenderer(config.srcDir ?? '', config.markdown || undefined)
 
     function render(x: any): any {
       for (const key in x) {
