@@ -17,7 +17,7 @@ export const zh_CN = defineConfig({
 
     footer: {
       message: '所有文档采用 CC BY-SA 4.0 许可协议发布',
-      copyright: '© 2024 MSCPO',
+      copyright: '© 2025 MSCPO',
     },
 
     docFooter: {
