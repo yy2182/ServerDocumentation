@@ -6,11 +6,11 @@
 - [x] Cuberite
 - [x] SpigotSeries
 - [x] Sponge
-- [ ] Fabric
-- [ ] Forge
+- [x] Fabric
+- [x] Forge
 
 ## Bedrock
 
 - [ ] PocketMine
 - [ ] Nukkit
-- [ ] BDS
+- [x] BDS

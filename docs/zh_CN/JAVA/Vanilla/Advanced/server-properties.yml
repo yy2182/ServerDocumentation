@@ -162,7 +162,7 @@ spawn-monsters:
   description: "决定是否生成怪物。"
 spawn-npcs:
   default: "true"
-  description: "决定是否生成村民。"
+  description: "决定是否生成NPC。"
 spawn-protection:
   default: "16"
   description: "用于确定生成保护的边长。使用公式2x+1。值为1将导致边长为3块。将此设置为0将禁用生成保护。必须至少有1个操作员才能启用。"
